@@ -236,4 +236,48 @@ nav .navbar-brand a{
     width: 80%;
     text-align: center;
   }
+
+  .about-us-section {
+    padding: 2rem 1rem;
+  }
+
+  
+
+  .photo-grid img {
+    border-radius: 15px;
+    border-bottom-left-radius: 15px;
+    border-bottom-right-radius: 15px;
+    box-shadow: 0 2px 15px rgba(0, 0, 0, 0.05);
+  }
+
+  .about-us-section h2 {
+    font-size: 1.75rem;
+  }
+
+  .about-us-section p {
+    font-size: 0.95rem;
+    padding: 0 10px;
+  }
+
+  .btn {
+    width: 100%;
+    padding: 0.75rem;
+    font-size: 1rem;
+  }
+
+  .mt-3 {
+    margin-top: 1.25rem !important;
+  }
+
+  .mb-3 {
+    margin-bottom: 1.25rem !important;
+  }
+
+  .text-lg-start {
+    text-align: center !important; /* override left-align on mobile */
+  }
+
+  .ms-5 {
+    margin-left: 0 !important; /* remove side margin */
+  }
 }
