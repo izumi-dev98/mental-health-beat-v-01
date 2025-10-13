@@ -118,7 +118,7 @@ nav .navbar-brand a{
   body {
     background-position: center;
     background-size: cover;
-    height: auto; /* Let content define height */
+    height: 100vh; /* Let content define height */
     padding-bottom: 2rem; /* Add space for mobile scrolling */
   }
 
@@ -153,7 +153,7 @@ nav .navbar-brand a{
     position: relative;
     margin: 0 auto;
     text-align: center;
-    top: auto;
+    top: 25%;
     padding-top: 120px; /* Push content below the navbar */
     margin-left: 0;
   }
