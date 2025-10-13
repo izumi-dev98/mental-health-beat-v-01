@@ -1,0 +1,179 @@
+body{
+    margin: 0;
+    padding: 0;
+    background-image: url('../img/hero.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+    width: 100%;
+}
+
+nav {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    padding: 1rem 2rem;
+    border-bottom-left-radius: 30px;
+    border-bottom-right-radius: 30px;
+    background: rgba(255, 255, 255, 0.1); 
+    border-bottom: 1px solid rgba(255, 255, 255, 0.3); 
+    backdrop-filter: blur(10px); 
+    -webkit-backdrop-filter: blur(10px); 
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+    z-index: 1000; 
+}
+
+nav .nav-link {
+  color: rgb(23, 23, 24) !important;
+  transition: transform 0.3s ease, color 0.3s ease;
+}
+
+nav .nav-link:hover {
+  color: #2505d8 !important; /* Change to your desired hover color */
+  transform: scale(1.1);      /* Zoom effect */
+}
+
+nav .navbar-brand a{
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+    margin-left: 20px;
+}
+
+.hero-content {
+    position: absolute;
+    top: 50%;
+    bottom: 0;
+    margin-left: 50px;
+    flex-wrap: wrap;
+    
+    
+}
+
+.hero-content h2{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-weight: bold;
+    font-size: 100px;
+}
+
+.hero-button {
+    display: flex;
+    gap: 1rem;
+    margin-top: 1.5rem;
+}
+
+.hero-button a {
+    text-decoration: none;
+    color: rgb(0, 0, 0);
+    padding: 0.75rem 1.5rem;
+    border: 1px solid rgba(255, 255, 255, 0.3);
+    border-radius: 8px;
+    background: rgba(255, 255, 255, 0.1); /* glassy transparent bg */
+    backdrop-filter: blur(10px);
+    -webkit-backdrop-filter: blur(10px);
+    transition: all 0.3s ease;
+}
+
+.hero-button a:hover {
+    transform: scale(1.05);
+    color: #110df0; /* hover text color */
+    border-color: rgba(13, 35, 235, 0.5);
+    background: rgba(255, 255, 255, 0.2);
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media (max-width: 768px) {
+  /* Body adjustments for mobile */
+  body {
+    background-position: center;
+    background-size: cover;
+    height: auto; /* Let content define height */
+    padding-bottom: 2rem; /* Add space for mobile scrolling */
+  }
+
+  /* Navbar responsiveness */
+  nav {
+    padding: 0.75rem 1rem;
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+  }
+
+  nav .navbar-brand img {
+    height: 45px;
+    width: 45px;
+  }
+
+  nav .navbar-brand a {
+    font-size: 16px;
+    margin-left: 0;
+  }
+
+  /* Optional: reduce font size of nav links */
+  nav .nav-link {
+    font-size: 15px;
+  }
+
+  /* Optional: center items in collapsed navbar */
+  .navbar-collapse {
+    text-align: center;
+  }
+
+  .hero-content {
+    position: relative;
+    margin: 0 auto;
+    text-align: center;
+    top: auto;
+    padding-top: 120px; /* Push content below the navbar */
+    margin-left: 0;
+  }
+
+  .hero-content h2 {
+    font-size: 48px; /* Reduce font size for small screens */
+  }
+
+  .hero-content p {
+    font-size: 16px;
+    padding: 0 1rem;
+  }
+
+  .hero-button {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .hero-button a {
+    width: 80%;
+    text-align: center;
+  }
+}
