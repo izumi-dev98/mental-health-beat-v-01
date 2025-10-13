@@ -43,7 +43,7 @@ nav .navbar-brand a{
 
 .hero-content {
     position: absolute;
-    top: 50%;
+    top: 30%;
     bottom: 0;
     margin-left: 50px;
     flex-wrap: wrap;
