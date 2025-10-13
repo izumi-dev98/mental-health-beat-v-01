@@ -2,113 +2,120 @@
 <html lang="en">
 
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
 
-    <!-- Bootstrap -->
+  <!-- Bootstrap -->
 
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet"
-        integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
 
-    <!-- Font Awsone -->
+  <!-- Font Awsone -->
 
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css"
-        integrity="sha512-2SwdPD6INVrV/lHTZbO2nodKhrnDdJK9/kg2XD1r9uGqPo1cUbujc+IYdlYdEErWNu69gVcYgdxlmVmzTWnetw=="
-        crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css"
+    integrity="sha512-2SwdPD6INVrV/lHTZbO2nodKhrnDdJK9/kg2XD1r9uGqPo1cUbujc+IYdlYdEErWNu69gVcYgdxlmVmzTWnetw=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
 
-    <!-- AOS JS -->
+  <!-- AOS JS -->
 
-    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+  <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
 
-    <!-- Css -->
+  <!-- Css -->
 
-    <link rel="stylesheet" href="./css/style.css">
+  <link rel="stylesheet" href="./css/style.css">
 
 </head>
 
 <body>
 
-   <!-- nav bar -->
+  <!-- nav bar -->
 
-   <nav class="navbar navbar-expand-lg position-fixed">
-  <div class="container-fluid">
-    <div class="navbar-brand">
-        <img src="./img/logo.png" alt="logo" class="border rounded-circle" height="60px" width="60px">
-        <a class="" href="#">Mental Health</a>
+  <nav class="navbar navbar-expand-lg position-fixed">
+    <div class="container-fluid">
+      <a class="navbar-brand d-flex align-items-center gap-2" href="#">
+        <img src="./img/logo.png" alt="logo" class="border rounded-circle" height="60" width="60">
+        <span>Mental Health</span>
+      </a>
+
+
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+        aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNav">
+        <ul class="navbar-nav ms-auto">
+          <li class="nav-item ms-2">
+            <a class="nav-link active" aria-current="page" href="#">Home</a>
+          </li>
+          <li class="nav-item ms-2">
+            <a class="nav-link" href="#">Features</a>
+          </li>
+          <li class="nav-item ms-2">
+            <a class="nav-link" href="#">Pricing</a>
+          </li>
+          <li class="nav-item ms-2">
+            <a class="nav-link btn btn-light" href="">097864325657</a>
+          </li>
+        </ul>
+      </div>
     </div>
-    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-      <span class="navbar-toggler-icon"></span>
-    </button>
-    <div class="collapse navbar-collapse" id="navbarNav">
-      <ul class="navbar-nav ms-auto">
-        <li class="nav-item ms-2">
-          <a class="nav-link active" aria-current="page" href="#">Home</a>
-        </li>
-        <li class="nav-item ms-2">
-          <a class="nav-link" href="#">Features</a>
-        </li>
-        <li class="nav-item ms-2">
-          <a class="nav-link" href="#">Pricing</a>
-        </li>
-        <li class="nav-item ms-2">
-          <a class="nav-link btn btn-light" href="">097864325657</a>
-        </li>
-      </ul>
-    </div>
-  </div>
-</nav>
+  </nav>
 
-<!-- Hero Section -->
+  <!-- Hero Section -->
 
-<div class="container-fluid hero">
-    <div class="hero-content" >
-    <h2 data-aos="fade-down" data-aos-duration="3000">Mental Health</h2>
-    <p data-aos="fade-right" data-aos-duration="3000" >Lorem ipsum dolor sit amet consectetur adipisicing elit...</p>
+  <div class="container-fluid hero">
+    <div class="hero-content">
+      <h2 data-aos="fade-down" data-aos-duration="3000">Mental Health</h2>
+      <p data-aos="fade-right" data-aos-duration="3000">Lorem ipsum dolor sit amet consectetur adipisicing elit...</p>
 
-    <div class="hero-button" data-aos="fade-up" data-aos-duration="3000">
+      <div class="hero-button" data-aos="fade-up" data-aos-duration="3000">
         <a href="#">Who We Are <span><i class="fa-solid fa-circle-user"></i></span></a>
         <a href="#">Our Service <span><i class="fa-solid fa-heart"></i></span></a>
-    </div>
-</div>
-</div>
-
-<!-- Abouts us -->
-<section class="about-us-section py-5">
-  <div class="container-fluid">
-    <div class="row align-items-center">
-      
-      <!-- Left Grid Photos -->
-      <div class="col-lg-6 mb-4 mb-lg-0 order-1 order-lg-0">
-        <div class="photo-grid">
-          <div><img src="./img/hero.jpg" alt="Product 1" class="img-fluid" data-aos="fade-down" data-aos-duration="2000"></div>
-          <div><img src="./img/hero.jpg" alt="Product 2" class="img-fluid" data-aos="fade-left" data-aos-duration="2000"></div>
-          <div><img src="./img/hero.jpg" alt="Product 3" class="img-fluid" data-aos="fade-up" data-aos-duration="2000"></div>
-          <div><img src="./img/hero.jpg" alt="Product 4" class="img-fluid" data-aos="fade-right" data-aos-duration="2000"> </div>
-        </div>
-        
-        <div class="mt-3 p-3 bg-light rounded text-center">
-          <h6 class="fw-bold mb-1">50,000+ Lives Impacted</h6>
-          <p class="mb-2 small">Supporting mental wellness with trusted care and compassion</p>
-         
-        </div>
       </div>
+    </div>
+  </div>
 
-      <!-- Right Text Content -->
-      <div class="col-lg-6 text-center text-mb-center text-lg-start mt-3 mt-lg-0 mb-3 mb-lg-0"">
+  <!-- Abouts us -->
+  <section class="about-us-section py-5">
+    <div class="container-fluid">
+      <div class="row align-items-center">
+
+        <!-- Left Grid Photos -->
+        <div class="col-lg-6 mb-4 mb-lg-0 order-1 order-lg-0">
+          <div class="photo-grid">
+            <div><img src="./img/hero.jpg" alt="Product 1" class="img-fluid" data-aos="fade-down"
+                data-aos-duration="2000"></div>
+            <div><img src="./img/hero.jpg" alt="Product 2" class="img-fluid" data-aos="fade-left"
+                data-aos-duration="2000"></div>
+            <div><img src="./img/hero.jpg" alt="Product 3" class="img-fluid" data-aos="fade-right"
+                data-aos-duration="2000"></div>
+            <div><img src="./img/hero.jpg" alt="Product 4" class="img-fluid" data-aos="fade-up"
+                data-aos-duration="2000"> </div>
+          </div>
+
+          <div class="mt-3 p-3 bg-light rounded text-center">
+            <h6 class="fw-bold mb-1">50,000+ Lives Impacted</h6>
+            <p class="mb-2 small">Supporting mental wellness with trusted care and compassion</p>
+
+          </div>
+        </div>
+
+        <!-- Right Text Content -->
+        <div class="col-lg-6 text-center text-mb-center text-lg-start mt-3 mt-lg-0 mb-3 mb-lg-0"">
         
-        <h2 class="fw-bold mb-3 ">ABOUT US</h2>
-        <p class="text-muted ">
+        <h2 class=" fw-bold mb-3 ">ABOUT US</h2>
+        <p class=" text-muted ">
           Lorem ipsum dolor sit, amet consectetur adipisicing elit. Eligendi consectetur beatae vitae accusamus consequuntur modi, facilis impedit eveniet deleniti dolor adipisci reprehenderit eum corrupti maiores. Quaerat quisquam amet aperiam tempora!
 
         </p>
-        <a href="#" class="btn border mt-3  px-4 py-2">LEARN MORE</a>
-        
-      </div>
+        <a href=" #" class="btn border mt-3  px-4 py-2">LEARN MORE</a>
 
+        </div>
+
+      </div>
     </div>
-  </div>
-</section>
+  </section>
 
 
 </body>
@@ -125,8 +132,7 @@
 <!-- Bootstrap js -->
 
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"
-    integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI"
-    crossorigin="anonymous"></script>
+  integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI" crossorigin="anonymous"></script>
 
 
 </html>

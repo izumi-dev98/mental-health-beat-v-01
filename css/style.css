@@ -6,15 +6,17 @@ body{
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
-    height: 65vh;
+    height: 100vh;
     width: 100%;
+    padding-top: 100px;
   
 }
 
 
 nav {
-    
+    position: fixed;
     top: 0;
+    left: 0;
     width: 100%;
     padding: 1rem 2rem;
     border-bottom-left-radius: 30px;
@@ -184,7 +186,7 @@ nav .navbar-brand a{
 
   /* Navbar responsiveness */
   nav {
-    padding: 0.75rem 1rem;
+    /* padding: 0.75rem 1rem; */
     border-bottom-left-radius: 20px;
     border-bottom-right-radius: 20px;
   }
