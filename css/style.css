@@ -288,6 +288,10 @@ nav .navbar-brand {
     text-align: center !important; /* override left-align on mobile */
   }
 
+  .about-us-section {
+      padding-left: 5%;
+  }
+
   .ms-5 {
     margin-left: 0 !important; /* remove side margin */
   }
