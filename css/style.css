@@ -164,7 +164,7 @@ nav .navbar-brand {
     cursor: pointer;
     width: 100%; 
     /* max-width: 300px;  */
-    height: 20rem; /* let height adjust automatically */
+    height: 17rem; /* let height adjust automatically */
     aspect-ratio: 3/4; /* keeps proportion (portrait card) */
     background: #111;
     box-shadow: 0 8px 24px rgba(0, 0, 0, 0.45);
